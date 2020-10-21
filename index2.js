@@ -24,7 +24,10 @@ function playAudio(){
 $(document).one("click", function(){
   playAudio();
 });
-
+$(document).on("click",function(){
+  var bruh = new Audio("sounds/bruh.mp3");
+  bruh.play();
+})
 function hm(){
   $("div .mala").toggleClass("glow1");
   $("div .mala").toggleClass("glow2");
