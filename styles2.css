@@ -1,0 +1,66 @@
+body{
+  background-color: orange;
+}
+h1{
+  font-family: 'Merriweather',serif;
+}
+.thismadenehakakkarcry1, .thismadenehakakkarcry2, .thismadenehakakkarcry3, .thismadenehakakkarcry4, .thismadenehakakkarcry5 {
+  width: 500px;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+}
+.thismadenehakakkarcry1{
+  top: 31%;
+  left: 10%;
+}
+.thismadenehakakkarcry2{
+  top: 33%;
+  right: 15%;
+}
+.thismadenehakakkarcry3{
+  bottom: -20%;
+  left: 15%;
+}
+.thismadenehakakkarcry4{
+  bottom: -21%;
+  right: 10%;
+
+}
+.thismadenehakakkarcry5{
+  bottom: -18%;
+  right: 25%;
+
+}
+.images{
+  margin-bottom: 5%;
+}
+.maths{
+  width: 15%;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  left: 43%;
+  z-index: 2;
+}
+.mala{
+  width: 17%;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  top: 4%;
+  left: 42%;
+  z-index: 2;
+  padding: 0;
+}
+.empty{
+  width:1000px;
+  height:200px;
+}
+.glow1{
+  box-shadow: 0 0 5px 5px red;
+}
+.glow2{
+  box-shadow: 0 0 5px 5px green;
+}

@@ -1,0 +1,125 @@
+body{
+  background-color: yellow;
+  background-image: url(images/cursed.jpg);
+  font-family: 'Chilanka',cursive;
+
+}
+
+h1{
+  color: orange;
+  font-family: 'Chilanka',cursive;
+  background-image: url(images/burnieani.gif);
+  text-align: center;
+}
+.hallo {
+  -moz-animation: marquee 10s linear infinite;
+  -webkit-animation: marquee 10s linear infinite;
+  animation: marquee 10s linear infinite;
+}
+.ninenine{
+  font-size: 1rem;
+  text-align: right;
+}
+@-moz-keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%)
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+.sexy-babe{
+  width: 6.6rem;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  left: 80%;
+
+}
+.ekboondvimgholosaarebartanmazesedholo{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  border: 16px red solid;
+
+}
+.kuttu{
+  width:10%;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  right: 1%;
+  top:1%;
+}
+.free-money{
+  font-family: 'Grenze Gotisch',cursive;
+  font-size: 2rem;
+  text-decoration-style: dotted;
+  color: blue;
+  margin-top: 10%;
+}
+.me{
+  width: 15%;
+  height: auto;
+  margin-left: 40%;
+  display: inline-block;
+    border: 15px purple solid;
+
+}
+marquee {
+    display: inline-block;
+    width: -webkit-fill-available;
+}
+.dudestorm{
+  font-size: 1.5rem;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+}
+.ad{
+  width:300px;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  top:38%;
+  left: 42%;
+}
+.borderad{
+  border: 15px solid gold;
+  border-style: dashed;
+}
+.alok{
+  width: 200px;
+  height: auto;
+  position: absolute;
+  display: inline-block;
+  left: 1%;
+  top: 1%;
+}
+.god{
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 23%;
+  left: 1%;
+}
